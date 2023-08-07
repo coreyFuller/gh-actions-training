@@ -1,6 +1,6 @@
 name: Actions
 on:
- push:
+ # push:
  pull_request:
   types: [closed, assigned, opened, reopened]
   
