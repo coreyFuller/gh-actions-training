@@ -1,5 +1,5 @@
 name: Simple Commands
-on: [push]
+# on: [push]
 jobs: 
  runs-shell-command:
   runs-on: ubuntu-latest
