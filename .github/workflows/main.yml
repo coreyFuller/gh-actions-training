@@ -1,0 +1,17 @@
+name: Simple Commands
+on: [push]
+jobs: 
+ runs-shell-commnad:
+  runs-on: ubuntu-latest
+  steps:
+   - name: echo a string
+     run: echo "Hello World"
+   - name: mulitline script
+     run: |
+      node -v
+      npm -v 
+   - name: python
+     run: |
+      import platform
+      print(platform.processor())
+     shell: python
